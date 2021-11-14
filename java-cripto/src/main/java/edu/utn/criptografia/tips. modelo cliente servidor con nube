@@ -1,0 +1,11 @@
+b. modelo cliente servidor con nube
+2 clases para simetrica otra para intercambio
+
+ningun desarrollador va a poder desconecer la exigencia criptografica
+tiene que usar esas clases
+
+para hacer tal comunicacion tiene que usar la clase CriptoSimetrica
+
+equipo que define ... dejar ideas claras a equipo de desarrollador
+explicar qu[e ] tienen que usar en cada caso de uso, que clase tienen que usar/qu[e] primitiva
+tienen que usar y que clase
