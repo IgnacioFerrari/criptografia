@@ -57,6 +57,9 @@ public class CifradoSimetrico {
         }
     }
 
+    public byte[] getKey() { return key; }
+    public byte[] getIV() { return iv; }
+
     public static void ejemplo() {
         final String plainText = "Viva la criptografía!";
 
