@@ -29,7 +29,7 @@ public class FirmaDigital {
             keyStore.load(is, PASSWORD);
             privateKey = (PrivateKey) keyStore.getKey("emisor", PASSWORD);
             
-            MessageDigest md = MessageDigest.getInstance("SHA-256");
+            MessageDigest md = MessageDigest.getInstance("SHA-512");
             byte[] messageHash = md.digest(message.getBytes());
             
             Cipher cipher = Cipher.getInstance("RSA");
@@ -56,7 +56,7 @@ public class FirmaDigital {
             
             publicKey = certificate.getPublicKey();
             
-            MessageDigest md = MessageDigest.getInstance("SHA-256");
+            MessageDigest md = MessageDigest.getInstance("SHA-512");
             byte[] messageHash = md.digest(message.getBytes());
             
             Cipher cipher = Cipher.getInstance("RSA");
