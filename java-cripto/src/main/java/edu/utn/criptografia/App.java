@@ -7,6 +7,8 @@ public class App
     {
         // CifradoSimetrico.ejemplo();
         // CifradoAsimetrico.ejemplo();
-        FirmaDigital.ejemplo();
+        // FirmaDigital.ejemplo();
+        HashContrasena.ejemplo("papafruling");
+        HashContrasena.benchmark();
     }
 }
